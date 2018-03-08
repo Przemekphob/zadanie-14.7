@@ -1,0 +1,32 @@
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	background-color: #FFF999;
+
+	div {
+		flex: 1;
+		padding: 25px;
+	}
+
+	form {
+		input, button {
+			border: none;
+			padding: 10px 25px;
+			margin: 5px;
+		}
+		button {
+			background-color: #333444;
+			color: #FFF;
+		}
+
+	}
+
+	.contactItem {
+		a {
+			text-decoration: none;
+			color: #000;
+		}
+	}
+}
